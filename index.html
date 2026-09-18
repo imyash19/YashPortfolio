@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yash Roy — Data Analyst</title>
+<meta name="description" content="Yash Roy — Data Analyst portfolio. SQL, Power BI, Tableau, Python, Excel, AWS.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="desktop-glow"></div>
+
+<!-- MENU BAR -->
+<div class="menubar">
+  <div class="menubar-left">
+    <span class="menubar-logo" aria-hidden="true">◆</span>
+    <span class="menubar-app">Yash Roy</span>
+    <span class="menubar-sep">—</span>
+    <span class="menubar-role">Data Analyst</span>
+  </div>
+  <div class="menubar-right">
+    <span class="menubar-status"><i class="status-dot"></i>Available for work</span>
+    <span class="menubar-clock" id="menubarClock">--:--</span>
+  </div>
+</div>
+
+<!-- DOCK -->
+<nav class="dock" id="dock" aria-label="Section navigation">
+  <a class="dock-item" href="#home" data-label="Home"><span class="dock-icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v9a1 1 0 0 0 1 1H10v-6h4v6h3.5a1 1 0 0 0 1-1v-9"/></svg>
+  </span></a>
+  <a class="dock-item" href="#about" data-label="About"><span class="dock-icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.4"/><path d="M5 20c1-3.6 4-5.6 7-5.6s6 2 7 5.6"/></svg>
+  </span></a>
+  <a class="dock-item" href="#work" data-label="Work"><span class="dock-icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.5h17a1 1 0 0 1 1 1V18a1 1 0 0 1-1 1h-17a1 1 0 0 1-1-1V9.5a1 1 0 0 1 1-1Z"/><path d="M8.5 8.5V7a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5"/></svg>
+  </span></a>
+  <a class="dock-item" href="#skills" data-label="Skills"><span class="dock-icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 3v2.4M12 18.6V21M21 12h-2.4M5.4 12H3M18 6l-1.7 1.7M7.7 16.3 6 18M18 18l-1.7-1.7M7.7 7.7 6 6"/></svg>
+  </span></a>
+  <a class="dock-item" href="#certifications" data-label="Certifications"><span class="dock-icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 8l10 5 10-5-10-5Z"/><path d="M6 10.8V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-5.2"/></svg>
+  </span></a>
+  <a class="dock-item" href="#gallery" data-label="Gallery"><span class="dock-icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4.5" width="17" height="15" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="m5 17 4.5-4.5L13 16l3-3 3 3"/></svg>
+  </span></a>
+  <a class="dock-item" href="#resume" data-label="Resume"><span class="dock-icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3.5h7l3.5 3.5V19a1.2 1.2 0 0 1-1.2 1.2H7A1.2 1.2 0 0 1 5.8 19V4.7A1.2 1.2 0 0 1 7 3.5Z"/><path d="M14 3.5V7h3.5M8.5 12h7M8.5 15.5h7"/></svg>
+  </span></a>
+  <a class="dock-item" href="#contact" data-label="Contact"><span class="dock-icon">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="m4 7 8 6 8-6"/></svg>
+  </span></a>
+</nav>
+
+<!-- HOME / HERO -->
+<header class="hero" id="home">
+  <div class="hero-copy">
+    <p class="hero-kicker"><i class="status-dot"></i>Available for new opportunities</p>
+    <h1 class="hero-title" id="heroTitle" aria-label="YASH">
+      <span class="letters" data-word="YASH"></span>
+    </h1>
+    <p class="hero-sub">Turning raw, messy data into decisions worth making — with SQL, Python, Power&nbsp;BI &amp; Tableau.</p>
+    <div class="hero-actions">
+      <a href="#work" class="btn btn-primary">See the work</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </div>
+
+  <div class="hero-stage">
+    <div class="mac-window hero-window" id="heroWindow">
+      <div class="window-bar">
+        <span class="traffic-dot dot-red"></span><span class="traffic-dot dot-yellow"></span><span class="traffic-dot dot-green"></span>
+        <span class="window-title">yash-desk.jpg</span>
+      </div>
+      <div class="window-body">
+        <img src="assets/hero-desk.jpg" alt="Yash at his desk, working on data analysis" />
+      </div>
+    </div>
+
+    <div class="widget widget-a">
+      <span class="widget-label">SQL</span>
+      <div class="widget-bars"><i></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="widget widget-b">
+      <span class="widget-label">Power BI</span>
+      <div class="widget-ring"></div>
+    </div>
+    <div class="widget widget-c">
+      <span class="widget-label">Python</span>
+      <div class="widget-dots"><i></i><i></i><i></i></div>
+    </div>
+  </div>
+</header>
+
+<!-- STATS -->
+<section class="stats" id="stats">
+  <div class="stat">
+    <span class="stat-number" data-count="8">0</span>
+    <span class="stat-label">Analytics projects shipped</span>
+  </div>
+  <div class="stat">
+    <span class="stat-number" data-count="25720" data-suffix="+">0</span>
+    <span class="stat-label">Data records analyzed</span>
+  </div>
+  <div class="stat">
+    <span class="stat-number" data-count="40" data-suffix="%">0</span>
+    <span class="stat-label">Manual reporting effort cut</span>
+  </div>
+  <div class="stat">
+    <span class="stat-number" data-count="4">0</span>
+    <span class="stat-label">Certifications earned</span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-photo-wrap">
+    <img src="assets/profile.jpg" alt="Portrait of Yash Roy" />
+  </div>
+  <div class="about-copy">
+    <p class="section-kicker">About</p>
+    <h2 class="section-title">I read data the way<br>editors read a rough cut —<br>for the story hiding inside.</h2>
+    <p class="about-text">I'm Yash, a data analyst working across analytics, cloud administration and consulting. I spend my days in SQL and Python cleaning up datasets no one wants to touch, then rebuilding them into Power BI and Tableau dashboards that stakeholders actually open.</p>
+    <p class="about-text">Simulation work with Deloitte and Accenture sharpened how I approach KPI reporting, stakeholder communication and data quality at an enterprise scale. I hold a BSc in Information Science from Chaudhary Charan Singh University.</p>
+    <div class="about-tags">
+      <span>SQL</span><span>Python</span><span>Power BI</span><span>Tableau</span><span>Excel</span><span>AWS</span>
+    </div>
+  </div>
+</section>
+
+<!-- THREE PILLARS -->
+<section class="pillars" id="pillars">
+  <div class="section-head">
+    <p class="section-kicker">What I do</p>
+    <h2 class="section-title">Three ways I move data forward</h2>
+  </div>
+  <div class="pillars-grid">
+    <article class="glass-card pillar">
+      <span class="pillar-index">01</span>
+      <h3>Data Analytics</h3>
+      <p>Auditing, cleaning and modeling datasets — then surfacing revenue, trend and correlation insights that hold up under questioning.</p>
+    </article>
+    <article class="glass-card pillar">
+      <span class="pillar-index">02</span>
+      <h3>Dashboards &amp; BI</h3>
+      <p>Building Power BI and Tableau dashboards with KPI cards, DAX measures and native visuals designed for people who won't read a report.</p>
+    </article>
+    <article class="glass-card pillar">
+      <span class="pillar-index">03</span>
+      <h3>Cloud &amp; Consulting</h3>
+      <p>AWS administration and process consulting — gap analysis, compliance checks and automated alerts that catch issues early.</p>
+    </article>
+  </div>
+</section>
+
+<!-- WORK / PROJECTS -->
+<section class="work" id="work">
+  <div class="section-head">
+    <p class="section-kicker">Selected work</p>
+    <h2 class="section-title">Projects</h2>
+  </div>
+
+  <div class="work-list">
+    <article class="glass-card work-item">
+      <div class="work-item-visual" style="--wa:10,132,255;">
+        <span class="work-item-tool">Python</span>
+      </div>
+      <div class="work-item-body">
+        <h3>Exploratory Data Analysis</h3>
+        <p>Audited and cleaned a 6,120-row e-commerce dataset — resolving duplicates, mixed date formats and invalid values — then delivered category, city and payment-method revenue and correlation analysis.</p>
+        <div class="tag-row"><span>Python</span><span>Pandas</span><span>EDA</span></div>
+        <a href="https://github.com/imyash19" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+
+    <article class="glass-card work-item">
+      <div class="work-item-visual" style="--wa:48,209,88;">
+        <span class="work-item-tool">Excel</span>
+      </div>
+      <div class="work-item-body">
+        <h3>Excel Retail Sales Dashboard</h3>
+        <p>Built a retail sales dashboard driven by SUMIFS/SUMPRODUCT formulas, KPI cards and three native charts wired to summary ranges for one-click refresh reporting.</p>
+        <div class="tag-row"><span>Excel</span><span>Pivot Tables</span><span>Dashboards</span></div>
+        <a href="https://github.com/imyash19" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+
+    <article class="glass-card work-item">
+      <div class="work-item-visual" style="--wa:255,159,10;">
+        <span class="work-item-tool">Power BI</span>
+      </div>
+      <div class="work-item-body">
+        <h3>HR Attrition Analysis</h3>
+        <p>Modeled a 1,600-employee HR dataset in Power BI across department, tenure, income, job satisfaction, overtime and promotion history to diagnose attrition patterns.</p>
+        <div class="tag-row"><span>Power BI</span><span>DAX</span><span>HR Analytics</span></div>
+        <a href="https://github.com/imyash19/PowerBi-HR-Attrition-Analysis-.git" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+
+    <article class="glass-card work-item">
+      <div class="work-item-visual" style="--wa:191,90,242;">
+        <span class="work-item-tool">SQL</span>
+      </div>
+      <div class="work-item-body">
+        <h3>FMCG Sales Insights</h3>
+        <p>Analyzed an 18,000-row synthetic FMCG dataset using ten SQL queries and a Python EDA pass, plus a Power BI build guide covering sales performance, seasonality and discount ROI.</p>
+        <div class="tag-row"><span>SQL</span><span>Python</span><span>Power BI</span></div>
+        <a href="https://github.com/imyash19" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+
+    <article class="glass-card work-item">
+      <div class="work-item-visual" style="--wa:255,69,58;">
+        <span class="work-item-tool">Python</span>
+      </div>
+      <div class="work-item-body">
+        <h3>Customer Churn Prediction</h3>
+        <p>Built a customer-churn prediction workflow in Python — feature engineering and classification modeling to flag accounts likely to leave before they do.</p>
+        <div class="tag-row"><span>Python</span><span>Machine Learning</span><span>Classification</span></div>
+        <a href="https://github.com/imyash19/Python-Customer-Churn-Prediction-.git" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+
+    <article class="glass-card work-item">
+      <div class="work-item-visual" style="--wa:100,210,255;">
+        <span class="work-item-tool">Tableau</span>
+      </div>
+      <div class="work-item-body">
+        <h3>Airline Delay Dashboard</h3>
+        <p>Built a Tableau dashboard tracking airline delay patterns — trends by carrier, route and time of day to help spot recurring operational bottlenecks.</p>
+        <div class="tag-row"><span>Tableau</span><span>Data Visualization</span><span>Aviation</span></div>
+        <a href="https://github.com/imyash19/Tableau-Airline-Delay-Dashboard-.git" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+
+    <article class="glass-card work-item">
+      <div class="work-item-visual" style="--wa:48,209,88;">
+        <span class="work-item-tool">SQL</span>
+      </div>
+      <div class="work-item-body">
+        <h3>Ecommerce Analysis</h3>
+        <p>Wrote SQL queries against transactional ecommerce data to surface sales, customer and product-performance insights for the business.</p>
+        <div class="tag-row"><span>SQL</span><span>Ecommerce</span><span>Reporting</span></div>
+        <a href="https://github.com/imyash19/SQL-Ecommerce-Analysis-.git" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+
+    <article class="glass-card work-item">
+      <div class="work-item-visual" style="--wa:10,132,255;">
+        <span class="work-item-tool">Analytics</span>
+      </div>
+      <div class="work-item-body">
+        <h3>Telecom Executive Insights</h3>
+        <p>Put together executive-level telecom analytics — dashboards and summaries covering customer, usage and revenue trends for leadership reporting.</p>
+        <div class="tag-row"><span>Telecom</span><span>Executive Reporting</span><span>Analytics</span></div>
+        <a href="https://github.com/imyash19/Telecom-Executive-Insights.git" target="_blank" rel="noopener">View on GitHub →</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <div class="section-head">
+    <p class="section-kicker">Toolkit</p>
+    <h2 class="section-title">Skills</h2>
+  </div>
+  <div class="skills-grid">
+
+    <div class="glass-card skill-chip">
+      <div class="skill-ring" data-pct="90">
+        <span class="skill-icon" style="color:var(--blue)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5.5" rx="7.5" ry="2.5"/><path d="M4.5 5.5V12c0 1.4 3.4 2.5 7.5 2.5s7.5-1.1 7.5-2.5V5.5"/><path d="M4.5 12v6.5c0 1.4 3.4 2.5 7.5 2.5s7.5-1.1 7.5-2.5V12"/></svg>
+        </span>
+      </div>
+      <span class="skill-name">SQL</span>
+      <span class="skill-pct">90%</span>
+    </div>
+
+    <div class="glass-card skill-chip">
+      <div class="skill-ring" data-pct="90">
+        <span class="skill-icon" style="color:var(--tl-yellow)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="2.5"/><path d="M8 16v-4M12 16V8M16 16v-6.5"/></svg>
+        </span>
+      </div>
+      <span class="skill-name">Power BI</span>
+      <span class="skill-pct">90%</span>
+    </div>
+
+    <div class="glass-card skill-chip">
+      <div class="skill-ring" data-pct="88">
+        <span class="skill-icon" style="color:var(--green)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="2"/><path d="M3.5 9h17M3.5 14.3h17M9 3.5v17M14.5 3.5v17"/></svg>
+        </span>
+      </div>
+      <span class="skill-name">Excel</span>
+      <span class="skill-pct">88%</span>
+    </div>
+
+    <div class="glass-card skill-chip">
+      <div class="skill-ring" data-pct="80">
+        <span class="skill-icon" style="color:var(--teal)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 4v8h8"/><path d="M12 12 6.5 17.5"/></svg>
+        </span>
+      </div>
+      <span class="skill-name">Tableau</span>
+      <span class="skill-pct">80%</span>
+    </div>
+
+    <div class="glass-card skill-chip">
+      <div class="skill-ring" data-pct="78">
+        <span class="skill-icon" style="color:#ffd43b">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/></svg>
+        </span>
+      </div>
+      <span class="skill-name">Python</span>
+      <span class="skill-pct">78%</span>
+    </div>
+
+    <div class="glass-card skill-chip">
+      <div class="skill-ring" data-pct="70">
+        <span class="skill-icon" style="color:var(--tl-yellow)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h10.5a3.5 3.5 0 0 0 .5-6.96A5.5 5.5 0 0 0 7.2 9.06 4 4 0 0 0 7 18Z"/></svg>
+        </span>
+      </div>
+      <span class="skill-name">AWS</span>
+      <span class="skill-pct">70%</span>
+    </div>
+
+  </div>
+
+  <div class="glass-card skills-tags-panel">
+    <div class="tag-row skills-tags">
+      <span>Data Visualization</span><span>Data Cleaning &amp; Validation</span><span>Data Modeling</span>
+      <span>KPI Reporting</span><span>DAX</span><span>Statistical Analysis</span><span>Stakeholder Communication</span>
+      <span>GitHub</span><span>Performance Optimization</span>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section class="certs" id="certifications">
+  <div class="section-head">
+    <p class="section-kicker">Proof of work</p>
+    <h2 class="section-title">Certifications</h2>
+  </div>
+  <div class="certs-grid">
+    <a class="glass-card cert-card" href="https://www.mygreatlearning.com/certificate/HVKMFPMV" target="_blank" rel="noopener">
+      <span class="cert-org">Great Learning Academy</span>
+      <h3>Data Analysis</h3>
+      <span class="cert-link">View certificate →</span>
+    </a>
+    <div class="glass-card cert-card">
+      <span class="cert-org">Skill India</span>
+      <h3>Power BI Data Analyst</h3>
+      <span class="cert-link">Issued credential</span>
+    </div>
+    <a class="glass-card cert-card" href="https://www.theforage.com/" target="_blank" rel="noopener">
+      <span class="cert-org">Accenture · Forage</span>
+      <h3>Consultant Job Simulation</h3>
+      <span class="cert-link">View certificate →</span>
+    </a>
+    <a class="glass-card cert-card" href="https://www.theforage.com/" target="_blank" rel="noopener">
+      <span class="cert-org">Deloitte · Forage</span>
+      <h3>Data Analytics Job Simulation</h3>
+      <span class="cert-link">View certificate →</span>
+    </a>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" id="gallery">
+  <div class="section-head">
+    <p class="section-kicker">Behind the dashboards</p>
+    <h2 class="section-title">Gallery</h2>
+  </div>
+  <div class="gallery-grid">
+    <figure class="mac-window gallery-item">
+      <div class="window-bar">
+        <span class="traffic-dot dot-red"></span><span class="traffic-dot dot-yellow"></span><span class="traffic-dot dot-green"></span>
+        <span class="window-title">desk.jpg</span>
+      </div>
+      <div class="window-body">
+        <img src="assets/hero-desk.jpg" alt="Yash working at his desk with a laptop">
+      </div>
+      <figcaption>At work — laptop, notebook, one black coffee</figcaption>
+    </figure>
+    <figure class="mac-window gallery-item">
+      <div class="window-bar">
+        <span class="traffic-dot dot-red"></span><span class="traffic-dot dot-yellow"></span><span class="traffic-dot dot-green"></span>
+        <span class="window-title">portrait.jpg</span>
+      </div>
+      <div class="window-body">
+        <img src="assets/profile.jpg" alt="Professional portrait of Yash Roy">
+      </div>
+      <figcaption>Yash Roy — Data Analyst</figcaption>
+    </figure>
+    <figure class="mac-window gallery-item">
+      <div class="window-bar">
+        <span class="traffic-dot dot-red"></span><span class="traffic-dot dot-yellow"></span><span class="traffic-dot dot-green"></span>
+        <span class="window-title">formal.jpg</span>
+      </div>
+      <div class="window-body">
+        <img src="assets/suit-portrait.jpg" alt="Yash Roy in a formal suit">
+      </div>
+      <figcaption>Yash Roy</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section class="resume" id="resume">
+  <div class="resume-copy">
+    <p class="section-kicker">Full details</p>
+    <h2 class="section-title">Resume</h2>
+    <p class="about-text">Experience, tools, projects and education in one page — updated resume, ready to download.</p>
+    <div class="resume-actions">
+      <a href="assets/Yash_Resume.pdf" download class="btn btn-primary">Download PDF</a>
+      <a href="assets/Yash_Resume.pdf" target="_blank" rel="noopener" class="btn btn-ghost">Open in new tab</a>
+    </div>
+  </div>
+  <div class="mac-window resume-window">
+    <div class="window-bar">
+      <span class="traffic-dot dot-red"></span><span class="traffic-dot dot-yellow"></span><span class="traffic-dot dot-green"></span>
+      <span class="window-title">Preview — Yash_Resume.pdf</span>
+    </div>
+    <div class="window-body">
+      <embed src="assets/Yash_Resume.pdf" type="application/pdf" />
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT / FINALE -->
+<footer class="contact" id="contact">
+  <p class="section-kicker">Let's talk</p>
+  <h2 class="finale-title">
+    <span class="letters" data-word="DATA ANALYST"></span>
+  </h2>
+  <p class="contact-sub">Open to data analyst roles and freelance dashboard work.</p>
+  <div class="contact-actions">
+    <a href="mailto:yashry.1910@gmail.com" class="btn btn-primary">Email me</a>
+    <a href="https://www.linkedin.com/in/yash-roy-b82276223/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+  </div>
+  <div class="social-row">
+    <a class="social-chip" href="https://www.linkedin.com/in/yash-roy-b82276223/" target="_blank" rel="noopener">
+      <span class="social-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="7" r="2.2"/><circle cx="18" cy="7" r="2.2"/><circle cx="12" cy="18" r="2.2"/><path d="M7.6 8.6 10.6 16M16.4 8.6 13.4 16M8.2 7h7.6"/></svg></span>
+      LinkedIn
+    </a>
+    <a class="social-chip" href="https://github.com/imyash19" target="_blank" rel="noopener">
+      <span class="social-icon" style="color:#fff"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></span>
+      GitHub
+    </a>
+    <a class="social-chip" href="https://www.instagram.com/theyashyr" target="_blank" rel="noopener">
+      <span class="social-icon" style="color:#e1306c"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg></span>
+      Instagram
+    </a>
+    <a class="social-chip" href="https://www.facebook.com/share/19X6J1bJ92/" target="_blank" rel="noopener">
+      <span class="social-icon" style="color:#1877f2"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg></span>
+      Facebook
+    </a>
+    <a class="social-chip" href="mailto:yashry.1910@gmail.com">
+      <span class="social-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="m4 7 8 6 8-6"/></svg></span>
+      Email
+    </a>
+  </div>
+  <div class="contact-foot">
+    <span>© 2026 Yash Roy</span>
+    <span>Noida, Uttar Pradesh, India</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
